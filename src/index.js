@@ -22,14 +22,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //     </React.StrictMode>
 // ),1000);
 
+
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Library /> */}
     {/* <Clock /> */}
+
       {/* <Welcome name="Sara" />
       <Welcome name="Cahal" />
-      <Welcome name="Edite" /> */}
+      <Welcome name="Edite" />  */}
+
       {/* <Comment /> */}
       {/* <CommentList /> */}
       <NotificationList />
