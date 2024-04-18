@@ -14,9 +14,20 @@ function Counter(props){
                 //console.log("count", count);
                 setCount(count + 1);
 
-
             }}>클릭</button>
         </div>
     )
 }
+
+// function Counter(props){
+//     const [count, setCount] = useState(0);
+//     return(
+//         <div>
+//             <p>총 {count} 카운트 했습니다.</p>
+//             <button onClick={()=>{setCount(count+1)}}>+</button>
+//             <button onClick={()=>{setCount(count-1)}}>-</button>
+//         </div>
+//     )
+// }
+
 export default Counter;
