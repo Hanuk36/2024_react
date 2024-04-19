@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-
 function Counter3(props){
     const[count, setCount] = useState(0);
 
@@ -14,7 +13,6 @@ function Counter3(props){
     // useEffect(()=>{
     //     document.title = `총 ${count}번 클릭 했습니다.`;
     // });
-
     return(
         <div>
             <p>총 {count}번 클릭 했습니다.</p>
@@ -22,8 +20,6 @@ function Counter3(props){
                 //count++;
                 //console.log("count", count);
                 setCount(count + 1);
-
-
             }}>클릭</button>
         </div>
     )

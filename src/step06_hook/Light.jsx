@@ -1,7 +1,15 @@
 import React from "react";
 
+// function Light({room, on, toggle}){
+//     console.log({room, on});
+//     return(
+//         <button onClick={toggle}>
+//             {room} {on ? "💡" : "⬛"}
+//         </button>
+//     )
+// }
+
 function Light({room, on, toggle}){
-    console.log({room, on});
     return(
         <button onClick={toggle}>
             {room} {on ? "💡" : "⬛"}

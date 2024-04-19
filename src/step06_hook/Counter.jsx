@@ -21,11 +21,19 @@ function Counter(props){
 
 // function Counter(props){
 //     const [count, setCount] = useState(0);
+
+//     const handleClick = () =>{
+//         setCount(count+1);
+//     }
+//     const handleClick2 = () =>{
+//         setCount(count-1);
+//     }
+
 //     return(
 //         <div>
-//             <p>총 {count} 카운트 했습니다.</p>
-//             <button onClick={()=>{setCount(count+1)}}>+</button>
-//             <button onClick={()=>{setCount(count-1)}}>-</button>
+//             <p>총 {count} 번 클릭</p>
+//             <button onClick={handleClick}>+</button>
+//             <button onClick={handleClick2}>-</button>
 //         </div>
 //     )
 // }
